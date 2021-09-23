@@ -11,70 +11,50 @@
 <body>
 
     <header>
-        <div class="container">
-            
+        <div class="container">     
             <div class="logo">
                 <img src="img/Petshop DH-logo-white 1.png" alt="foto logo">
             </div>
 
             <div class="botao">
-                <button>sobre</button>
-                <button>serviços</button>
-                <button>contato</button>
-                <button>login</button>
+                <button> <a href="index.html">sobre</a></button>
+                <button><a href="servicos.html">serviços</a> </button>
+                <button><a href="contato.html">contato</a> </button>
+                <button> <a href="login.html">login</a> </button>
             </div>
-            
-            
         </div>
     </header>
 
-    <section class="final">
-        <div class="container">
-            <img src="img/texto banner.png" alt="foto final">
-            <p><strong>
-                Sed ut perspiciatis unde iste natus error sit <br>
-                voluptatem accusantium doloremque <br> 
-                laudantium, </strong> <br>
-                Totam rem aperiam, eaque ipsa quae ab illo inventore <br>
-                veritatis et quasi architecto beatae vitae dicta sunt explicabo. <br>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,<br>
-                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-            </p>  
+    <div class="container contatos">
+        <div class="formulario">
+          <h2>Contato</h2>
+          <div class="formContainer">
+              <form action="">
+                  <input type="text" placeholder="nome" name="NomeContato"> <br>
+                  <input type="email" placeholder="email" name="emailContato"><br>
+                  <textarea name="mensagemContato" size="50" id="mensagem" rows="7" cols="50">mensagem</textarea><br>
+                  <input type="submit" value="entrar" id="botaoContatos">
+              </form>
+          </div>
         </div>
-    </section>
-   
-
-    <footer>
-        <div class="container">
-            
-
-            <div class="info">
-                <div class="logo">
-                    <img src="img/logo-black 1.png" alt="foto logo">
-                </div>
-
-                <div class="contato">
+        
+        <div class="contato">
+          <ul>
+              <li><a href="mailto:contato@petshop.com.br">contato@petshop.com.br</a></li>
+              <li><a href="callto:11984848484">(11) 984848484</a></li>
+              <li>Avenida Paulista, 4242 <br> Bairro Consolação <br> São Paulo - SP</li>
+          </ul>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0658301189783!
+          2d-46.652983985532565!3d-23.56607906765044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!
+          1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%20-%20Bela%20Vista%2C%20S%
+          C3%A3o%20Paulo%20-%20SP!5e0!3m2!1sen!2sbr!4v1631726875637!5m2!1sen!2sbr" width="400" 
+          height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
     
-                    <p><a href="tel:+11984848484"> (11) 98484-8484(WHATSAPP)</a></p>
-                    <p><a href="mailto:CONTATO@PETSHOP.COM.BR"> CONTATO@PETSHOP.COM.BR </a></p>
-
-                    <p> AVENIDA PAULISTA, 4242 <br>
-                        BAIRRO CONSOLAÇÃO<br>
-                        SÃO PAULO-SP
-                    </p>
-                </div>
-               
-            </div>
-        
-            <div class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2843142653132!2d-46.
-                66237808515048!3d-23.558230184684504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce
-                59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%20-%20Consola%C3%A7%C3%A3o%2C%20S%C3%A3o%20
-                Paulo%20-%20SP!5e0!3m2!1sen!2sbr!4v1632320760556!5m2!1sen!2sbr" width="600"
-                 height="450" style="border: 10px;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-        
+    <footer>
+        <div class="copyright"><p>Petshop DH - 2021</p></div>
     </footer>
+
 </body>
 </html>
